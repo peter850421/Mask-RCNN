@@ -29,3 +29,4 @@ Put the data just like below.
 ```
 ## Step2 Data annotation ##
 ### [Label me](https://github.com/wkentaro/labelme) ###
+<p align="center">><img src="./img/labelme.png" /></p>
