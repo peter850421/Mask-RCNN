@@ -30,3 +30,23 @@ Put the data just like below.
 ## Step2 Data annotation ##
 ### [Label me](https://github.com/wkentaro/labelme) ###
 <p align="center">><img src="https://github.com/peter850421/Mask-RCNN/blob/master/img/labelme.PNG"/></p>
+When we finish the annotation from labelme, we next transform the format to COCO format by the [command](https://github.com/wkentaro/labelme/tree/master/examples/instance_segmentation). But I suggest the other way to transform the format.
+Put this [file](https://github.com/lindylin1817/labelme2coco/blob/master/labelme2COCO.py) in to the image annotation folder, then try below: 
+	 python labelme2coco.py
+It will generate a new.json that was the annotation file of coco format. Next, we change the file name to train.json. Validation dataset is like the above step to get the coco format.
+Now we have the dataset below:
+
+```bash
+|-- dataset
+	|-- train
+		|--0.jpg
+		|--1.jpg
+		|-- ...
+	|-- val
+		|--1000.jpg
+		|--1001.jpg
+		|-- ...
+	|--annotation
+		|--train.json
+		|--val.json
+```
