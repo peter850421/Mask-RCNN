@@ -55,3 +55,13 @@ Now we have the dataset below:
 		|--train.json
 		|--val.json
 ```
+
+---
+
+## TO DO LIST
+
+- [X] Data Clearer
+- [x] Annotation
+- [ ] Traingin MASK RCNN
+- [ ] Visualize Result
+
