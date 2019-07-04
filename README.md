@@ -18,7 +18,7 @@ Put the data just like below.
 |-- data_utils.py
 |-- best_model
 	|--Classify
-    	|-- model.pth
+    		|-- model.pth
 |-- data(高風險照片)
     |-- A
     |-- B
