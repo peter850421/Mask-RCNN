@@ -70,7 +70,8 @@ Evaluate
 python ./train201908.py --training_dataset train --validation_dataset valid --year 201908 evaluate
 ```
 also see [train_valid_visual](https://github.com/peter850421/Mask-RCNN/blob/master/train/train_evaluate_visualize.ipynb)
-coco_eval replaced by[cocoeval.py](https://github.com/kimyoon-young/centerNet-deep-sort/blob/master/tools/cocoeval.py) (remember to change the class number)
+
+coco_eval replaced by [cocoeval.py](https://github.com/kimyoon-young/centerNet-deep-sort/blob/master/tools/cocoeval.py) (remember to change the class number)
 ## TO DO LIST
 
 - [X] Data Clearer
