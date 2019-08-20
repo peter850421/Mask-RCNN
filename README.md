@@ -69,7 +69,7 @@ Evaluate
 ```bash
 python ./train201908.py --training_dataset train --validation_dataset valid --year 201908 evaluate
 ```
-
+also see [train_valid_visual](https://github.com/peter850421/Mask-RCNN/blob/master/train/train_evaluate_visualize.ipynb)
 ## TO DO LIST
 
 - [X] Data Clearer
