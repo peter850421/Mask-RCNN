@@ -19,7 +19,7 @@ Put the data just like below.
 |-- best_model
 	|--Classify
     		|-- model.pth
-|-- data(高風險照片)
+|-- data(image)
     |-- A
     |-- B
     |-- C
@@ -57,11 +57,23 @@ Now we have the dataset below:
 ```
 
 ---
+## Step3 Installation ##
+Follow the installation in [matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN#installation)
+
+## Step4 Training and Evaluation ##
+Training
+```bash
+python ./train201908.py --training_dataset train --validation_dataset valid --year 201908 train
+```
+Evaluate
+```bash
+python ./train201908.py --training_dataset train --validation_dataset valid --year 201908 evaluate
+```
 
 ## TO DO LIST
 
 - [X] Data Clearer
 - [x] Annotation
-- [ ] Traingin MASK RCNN
-- [ ] Visualize Result
+- [X] Traingin MASK RCNN
+- [X] Visualize Result
 
